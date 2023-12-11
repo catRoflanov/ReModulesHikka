@@ -1,13 +1,13 @@
 # ---------------------------------------------------------------------------------
 # Name: BirthdayTime
 # Description: Counting down to your birthday
-# Author: @hikka_mods
+# Author: @HeCatRoflanov
 # ---------------------------------------------------------------------------------
 
 # 🔒    Licensed under the GNU AGPLv3
 # 🌐 https://www.gnu.org/licenses/agpl-3.0.html
 
-# meta developer: @hikka_mods
+# meta developer: @HeCatRoflanov
 # scope: BirthdayTime
 # scope: Api BirthdayTime 0.0.1
 # ---------------------------------------------------------------------------------
@@ -21,7 +21,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.functions.account import UpdateProfileRequest
 
 d_msg = [
-    "Не жду его"
+    " "
 ]
 
 
@@ -36,7 +36,6 @@ class DaysToMyBirthday(loader.Module):
             "<emoji document_id=5377476217698001788>🎉</emoji> <b>"
             "До моего дня рождения осталось {} дней, {} часов, {} "
             "минут, {} секунд. \n<emoji document_id=5377442914521588226>"
-            "💙</emoji> {}</b>"
         ),
     }
 
