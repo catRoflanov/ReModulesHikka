@@ -21,12 +21,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.functions.account import UpdateProfileRequest
 
 d_msg = [
-    "Не жду его",
-    "Осталось немного(",
-    "Дни летят, не замечу",
-    "Не хочу знать что получу на день рождение",
-    "Забыл сколько исполняется",
-    "Не хочу своё день рождение",
+    "Не жду его"
 ]
 
 
