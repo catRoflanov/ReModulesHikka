@@ -46,8 +46,8 @@ from telethon.tl.types import (
 from .. import loader, utils
 
 
-class KomaruMod(loader.Module):
-    """Random picture/video/gif from the @komarueveryday"""
+class MuuMod(loader.Module):
+    """Random picture/video/gif from the @muu_daybyday"""
 
     strings = {
         "name": "Muu",
@@ -71,7 +71,7 @@ class KomaruMod(loader.Module):
     }
 
     @loader.command(ru_doc="- подобрать рандом картинку(пикчу)/видео/гиф")
-    async def komaru(self, message: Message):
+    async def muu(self, message: Message):
         """- choose a random picture/gif/video"""
         search_type = choice(
             [
