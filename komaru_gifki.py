@@ -50,7 +50,7 @@ class gifki(loader.Module):
     """Random picture/video/gif from the @Komaru_gifki"""
 
     strings = {
-        "name": "Komaru", "Muu", "Panchan", "Dapy",
+        "name": "Gifki",
         "choosing": "<emoji document_id=5328311576736833844>🔴</emoji> Choosing {}...",
         "gif": "gif",
         "video": "video",
