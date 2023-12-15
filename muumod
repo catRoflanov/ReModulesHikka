@@ -4,12 +4,12 @@
 #  > ^ <   ⚠️ Owner of heta.hikariatama.ru doesn't take any responsibilities or intellectual property rights regarding this script
 # ---------------------------------------------------------------------------------
 # Name: muumod
-# Author: catRoflanov
+# Author: Den4ikSuperOstryyPer4ik
 # Commands:
 # .muu
 # ---------------------------------------------------------------------------------
 
-__version__ = (1, 0, 0)
+__version__ = (1, 0, 2)
 #
 # 	 @@@@@@    @@@@@@   @@@@@@@  @@@@@@@    @@@@@@   @@@@@@@@@@    @@@@@@   @@@@@@@   @@@  @@@  @@@       @@@@@@@@   @@@@@@
 # 	@@@@@@@@  @@@@@@@   @@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@       @@@@@@@@  @@@@@@@
@@ -24,15 +24,15 @@ __version__ = (1, 0, 0)
 #
 #                                             © Copyright 2023
 #
-#                                    https://t.me/HeCatRoflanov
+#                                    https://t.me/Den4ikSuperOstryyPer4ik
 #                                                  and
-#                                          https://t.me/catfRadio
+#                                          https://t.me/ToXicUse
 #
 #                                    🔒 Licensed under the GNU AGPLv3
 #                                 https://www.gnu.org/licenses/agpl-3.0.html
 #
 # meta banner: https://0x0.st/Hs4u.png
-# meta developer: @HeCatRoflanov
+# meta developer: @AstroModules
 
 from random import choice
 
@@ -47,7 +47,7 @@ from .. import loader, utils
 
 
 class KomaruMod(loader.Module):
-    """Random picture/video/gif from the @muu_daybyday"""
+    """Random picture/video/gif from the @komarueveryday"""
 
     strings = {
         "name": "Muu",
