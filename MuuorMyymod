@@ -6,7 +6,7 @@
 # Name: MuuorMyymod
 # Author: catRoflanov
 # Commands:
-# .komaru
+# .muu
 # ---------------------------------------------------------------------------------
 
 __version__ = (1, 0, 0)
